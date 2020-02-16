@@ -2,7 +2,7 @@
   "name": "hpe-grommet-resume-builder-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://senlaksh27.github.io/hpe-grommet-resume-builder-app",
+  "homepage": "https://senlaksh27.github.io/grommet-resume-builder",
   "dependencies": {
     "gh-pages": "^2.2.0",
     "grommet": "^2.0.1",
