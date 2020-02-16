@@ -66,6 +66,7 @@ class ProfileSummary extends Component {
                     value={values.profileSum}
                     onChange={handleChange}
                     required
+                    autoFocus
                   />
 
                 </Box>

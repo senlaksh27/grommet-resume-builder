@@ -63,6 +63,7 @@ class EducationSummary extends Component {
                   value={values.edu1College}
                   onChange={handleChange}
                   required
+                  autoFocus
                 />
               </FormField >
               <FormField

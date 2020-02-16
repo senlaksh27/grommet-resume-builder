@@ -55,6 +55,7 @@ class PersonalInfo extends Component {
                   value={values.name}
                   onChange={handleChange}
                   required
+                  autoFocus
                 />
               </FormField>
               <FormField

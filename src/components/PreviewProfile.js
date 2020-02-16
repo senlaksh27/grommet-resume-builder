@@ -74,6 +74,7 @@ class PreviewProfile extends Component {
       edu2Desc,
 
       dob,
+      gender,
       languages,
       address
     } = values;
@@ -223,10 +224,14 @@ class PreviewProfile extends Component {
         </div>;
     }
 
-    if (dob || languages || address) {
-      let dobEle, languagesEle, addressEle = null
+    if (dob || gender || languages || address) {
+      let dobEle, genderEle, languagesEle, addressEle = null
       if (dob) {
         dobEle = <Box responsive><Text size="small">{`Date Of Birth: ${dob}`}</Text></Box>
+      }
+
+      if (gender) {
+        genderEle = <Box responsive><Text size="small">{`Gender: ${gender}`}</Text></Box>
       }
 
       if (languages) {
@@ -245,6 +250,7 @@ class PreviewProfile extends Component {
           gap="small"
         >
           {dobEle}
+          {genderEle}
           {languagesEle}
           {addressEle}
         </Grid>

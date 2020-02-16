@@ -60,6 +60,7 @@ class TopFiveSkills extends Component {
                   value={values.skill1}
                   onChange={handleChange}
                   required
+                  autoFocus
                 />
               </FormField >
               <FormField

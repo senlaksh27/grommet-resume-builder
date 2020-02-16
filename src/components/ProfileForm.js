@@ -58,6 +58,7 @@ class ProfileForm extends Component {
         edu2Desc: '',
 
         dob: '',
+        gender: '',
         languages: '',
         address: '',
 
@@ -167,6 +168,7 @@ class ProfileForm extends Component {
     handleAdditionalPersonalInfoReset = () => {
         this.setState({
             dob: '',
+            gender: '',
             languages: '',
             address: '',
         });

@@ -7,7 +7,8 @@ import {
   FormField,
   TextInput,
   Text,
-  TextArea
+  TextArea,
+  RadioButtonGroup
 } from 'grommet';
 
 const theme = {
@@ -55,11 +56,24 @@ class AdditionalPersonalInfo extends Component {
               <FormField
                 label="Date Of Birth"
                 name="dob"
+                autoFocus
               >
                 <TextInput
                   name="dob"
                   type="date"
                   value={values.dob}
+                  onChange={handleChange}
+                />
+              </FormField>
+              <FormField
+                label="Gender"
+                name="gender"
+                autoFocus
+              >
+                <RadioButtonGroup 
+                  name="gender"
+                  value={values.gender} 
+                  options={["Male", "Female"]}
                   onChange={handleChange}
                 />
               </FormField>

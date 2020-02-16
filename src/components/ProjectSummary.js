@@ -64,6 +64,7 @@ class ProjectSummary extends Component {
                   value={values.proj1Title}
                   onChange={handleChange}
                   required
+                  autoFocus
                 />
               </FormField >
               <FormField

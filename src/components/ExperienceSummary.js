@@ -64,6 +64,7 @@ class ExperienceSummary extends Component {
                   value={values.exp1Orgn}
                   onChange={handleChange}
                   required
+                  autoFocus
                 />
               </FormField >
               <FormField
